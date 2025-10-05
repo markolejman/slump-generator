@@ -77,10 +77,10 @@ export default function Home() {
     timeoutRef.current = setTimeout(finalize, 2000);
   }, [fromValue, toValue, availableNumbers, animate]);
 
-  // Submit on Enter
+  // Submit on Enter or Space
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
-      if (e.key === "Enter") {
+      if (e.key === "Enter" || e.code === "Space" || e.key === " ") {
         e.preventDefault();
         if (!isSpinning) generate();
       }
