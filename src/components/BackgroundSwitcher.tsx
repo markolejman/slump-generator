@@ -28,6 +28,30 @@ export default function BackgroundSwitcher() {
         url: "https://images.pexels.com/photos/597909/pexels-photo-597909.jpeg",
         label: "Aurora",
       },
+      {
+        url: "https://visitsolihull.co.uk/wp-content/uploads/2022/10/Halloween-1-2048x1365.jpg",
+        label: "Halloween",
+      },
+      {
+        url: "https://www.sorryonmute.com/wp-content/uploads/2023/08/Feature-Image-30.png",
+        label: "Party",
+      },
+      {
+        url: "https://assets.artifactuprising.com/assets/campaigns/2021/01-17+Winter+Photo+Tips+BLOG/04-A-jan-kop%C3%85_iva.jpg",
+        label: "Winter Portrait",
+      },
+      {
+        url: "https://assets.artifactuprising.com/assets/campaigns/2020/Q1/01-23+Winter+Photo+Tips/Flo_Maderebner.jpg",
+        label: "Skiers",
+      },
+      {
+        url: "https://assets.artifactuprising.com/assets/campaigns/2021/01-17+Winter+Photo+Tips+BLOG/07.jpg",
+        label: "Snow Trees",
+      },
+      {
+        url: "https://assets.artifactuprising.com/assets/campaigns/2020/Q1/01-23+Winter+Photo+Tips/SnowyRoad.jpg",
+        label: "Snowy Road",
+      },
     ],
     []
   );
@@ -65,6 +89,25 @@ export default function BackgroundSwitcher() {
           title={`Background: ${current.label} (click to change)`}
         >
           Change mood
+        </Button>
+      </div>
+
+      {/* Bottom-left external link button */}
+      <div className="fixed left-4 bottom-4 z-10">
+        <Button
+          asChild
+          size="lg"
+          className="shadow-lg bg-black/70 text-white hover:bg-black/80 border border-white/20 backdrop-blur"
+        >
+          <a
+            href="https://bingo-generator-ckhw.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Create bingo cards"
+            title="Create bingo cards"
+          >
+            Create bingo cards
+          </a>
         </Button>
       </div>
     </>
