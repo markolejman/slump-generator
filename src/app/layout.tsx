@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { Toaster } from "@/components/ui/sonner";
+import BackgroundSwitcher from "@/components/BackgroundSwitcher";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -28,18 +29,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen`}
       >
-        {/* Background image with dark overlay */}
-        <div
-          className="fixed inset-0 -z-10"
-          style={{
-            backgroundImage:
-              "url('https://via.tt.se/data/images/00037/2a1c7bfb-56a9-4fd1-b06a-205833975e49.jpg')",
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-            backgroundRepeat: "no-repeat",
-          }}
-        />
-        <div className="fixed inset-0 -z-10 bg-black/60" />
+        <BackgroundSwitcher />
 
         {children}
         <Toaster richColors position="top-center" />
