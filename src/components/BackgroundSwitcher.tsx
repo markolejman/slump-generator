@@ -71,8 +71,7 @@ export default function BackgroundSwitcher() {
         }}
         aria-hidden
       />
-      {/* Dark overlay for readability */}
-      <div className="fixed inset-0 -z-10 bg-black/60" aria-hidden />
+      {/* Removed dark overlay to show the image as-is */}
 
       {/* Floating control button bottom-right */}
       <div className="fixed right-4 bottom-4 z-10">

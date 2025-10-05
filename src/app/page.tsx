@@ -94,7 +94,7 @@ export default function Home() {
       ref={scope}
       className="min-h-screen flex items-center justify-center p-4"
     >
-      <div className="w-full max-w-3xl rounded-2xl bg-white/20 dark:bg-white/10 backdrop-blur-md shadow-xl border border-white/30 p-6 sm:p-8">
+      <div className="w-full max-w-3xl rounded-2xl bg-black/50 dark:bg-black/50 backdrop-blur-md backdrop-saturate-150 shadow-xl border border-white/20 p-6 sm:p-8">
         <div className="space-y-2 text-center sm:text-left">
           <h1 className="text-3xl sm:text-4xl font-bold tracking-tight text-white">
             Markos bingo number generator
