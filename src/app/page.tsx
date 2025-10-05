@@ -8,7 +8,7 @@ import { toast } from "sonner";
 
 export default function Home() {
   const [fromValue, setFromValue] = useState<number>(1);
-  const [toValue, setToValue] = useState<number>(75);
+  const [toValue, setToValue] = useState<number>(36);
   const [currentNumber, setCurrentNumber] = useState<number | null>(null);
   const [history, setHistory] = useState<number[]>([]);
   const [isSpinning, setIsSpinning] = useState<boolean>(false);
