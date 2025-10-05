@@ -33,10 +33,6 @@ export default function BackgroundSwitcher() {
         label: "Halloween",
       },
       {
-        url: "https://www.sorryonmute.com/wp-content/uploads/2023/08/Feature-Image-30.png",
-        label: "Party",
-      },
-      {
         url: "https://assets.artifactuprising.com/assets/campaigns/2021/01-17+Winter+Photo+Tips+BLOG/04-A-jan-kop%C3%85_iva.jpg",
         label: "Winter Portrait",
       },
