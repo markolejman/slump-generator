@@ -48,6 +48,26 @@ export default function BackgroundSwitcher() {
         url: "https://assets.artifactuprising.com/assets/campaigns/2020/Q1/01-23+Winter+Photo+Tips/SnowyRoad.jpg",
         label: "Snowy Road",
       },
+      {
+        url: "https://hips.hearstapps.com/hmg-prod/images/christmas-living-room-67681e686534b.png?crop=1.00xw:0.742xh;0,0.0856xh&resize=1200:*",
+        label: "Christmas Living Room",
+      },
+      {
+        url: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQpD0gu5jY_z2aSgE-zev7MccD-s55KHfDuCWnL0jjbi8U0OVlP",
+        label: "Christmas Thumbnail",
+      },
+      {
+        url: "https://wallpapercave.com/wp/wp14753521.jpg",
+        label: "Christmas Wallpaper",
+      },
+      {
+        url: "https://cdn.wallpapersafari.com/78/14/KdTYnE.jpg",
+        label: "Winter Wallpaper",
+      },
+      {
+        url: "https://media.wallpaperengine.space/posters/v1/snowy-mountain-cabin-northern-lights-christmas.webp",
+        label: "Mountain Cabin Northern Lights",
+      },
     ],
     []
   );

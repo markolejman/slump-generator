@@ -19,6 +19,11 @@
 
 # production
 /build
+/dist
+
+# cache
+.turbo/
+.cache/
 
 # misc
 .DS_Store
