@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Markos bingo number generator",
+  title: "Markos 67 number generator",
   description: "Beautiful, non-repeating bingo number generator with animation",
 };
 

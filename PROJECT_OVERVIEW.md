@@ -1,10 +1,11 @@
-# Project Overview – Markos bingo number generator
+# Project Overview – Markos 67 number generator
 
 ## Syfte
 En webbapp som slumpar fram bingonummer inom ett valt intervall (standard 1–36) utan upprepningar. Varje dragning har en "slot machine"-animation. Bakgrunden kan bytas mellan flera stämningsbilder.
 
 ## Teknologistack
-- **Next.js 15** (App Router, Turbopack) + **React 19**
+- **Next.js 15.5.29** (App Router, Turbopack) + **React 19.1.10**. Håll Next patchad – Vercel blockerar deploy av sårbara Next-versioner.
+- Pakethanterare: **pnpm** (`pnpm-lock.yaml` är den som Vercel använder).
 - **TypeScript** (strict)
 - **Tailwind CSS v4** + `tw-animate-css`
 - **shadcn/ui-stil** komponenter (`src/components/ui/`) byggda på Radix Slot + `class-variance-authority`

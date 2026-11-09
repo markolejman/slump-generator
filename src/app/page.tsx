@@ -97,7 +97,7 @@ export default function Home() {
       <div className="w-full max-w-3xl rounded-2xl bg-black/50 dark:bg-black/50 backdrop-blur-md backdrop-saturate-150 shadow-xl border border-white/20 p-6 sm:p-8">
         <div className="space-y-2 text-center sm:text-left">
           <h1 className="text-3xl sm:text-4xl font-bold tracking-tight text-white">
-            Markos bingo number generator
+            Markos 67 number generator
           </h1>
           <p className="text-white/80">
             Choose range and generate non-repeating numbers.
